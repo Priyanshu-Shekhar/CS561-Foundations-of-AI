@@ -1,0 +1,4 @@
+# CSCI 561 - Foundations of Artificial Intelligence
+
+## Assignemnt 1 
+I implemented a Genetic Algorithm to solve a 3D Traveling Salesman Problem (TSP) where the goal was to find the shortest path for a USC student to run errands across campus and return home, visiting each location exactly once. The assignment involved creating an initial population of random paths, selecting parents using a roulette wheel method, performing two-point crossover to generate offspring while ensuring TSP constraints, and optimizing the solution to minimize the total Euclidean distance traveled in a 3D space defined by (x, y, z) coordinates. My program, written in Python, processed input from a file listing city coordinates, computed an optimal tour, and output the total distance and ordered list of locations to a file. This project enhanced my understanding of AI optimization techniques and their practical application to real-world routing problems.
