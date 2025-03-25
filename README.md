@@ -1,4 +1,8 @@
 # CSCI 561 - Foundations of Artificial Intelligence
+Foundations of symbolic intelligent systems, search, logic, knowledge representation, planning, and learning.
 
-## Assignemnt 1 
+## Assignment 1 
 I implemented a Genetic Algorithm to solve a 3D Traveling Salesman Problem (TSP) where the goal was to find the shortest path for a USC student to run errands across campus and return home, visiting each location exactly once. The assignment involved creating an initial population of random paths, selecting parents using a roulette wheel method, performing two-point crossover to generate offspring while ensuring TSP constraints, and optimizing the solution to minimize the total Euclidean distance traveled in a 3D space defined by (x, y, z) coordinates. My program, written in Python, processed input from a file listing city coordinates, computed an optimal tour, and output the total distance and ordered list of locations to a file. This project enhanced my understanding of AI optimization techniques and their practical application to real-world routing problems.
+
+## Assignment 2
+For my CSCI-561 Foundations of Artificial Intelligence Homework 2, I developed an AI agent to play Little-Go, a simplified 5x5 version of the Go board game, using techniques like Minimax with alpha-beta pruning and Q-Learning, implemented from scratch in Python. The assignment tasked me with creating an agent named "my_player.py" that reads game states from an input file, processes the board’s previous and current configurations, and outputs moves to an output file, adhering to Go’s Liberty and KO rules while aiming to maximize territory control. This project deepened my skills in game-playing algorithms and reinforcement learning, culminating in a robust agent capable of competing in simulated tournaments.
